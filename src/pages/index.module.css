@@ -1,0 +1,75 @@
+/* Hero Section */
+.heroBanner {
+  background: linear-gradient(135deg, #1b1f3b, #243b55);
+  color: #fff;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  opacity: 0.9;
+  color: #e0e0e0;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+/* Features Section */
+.features {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.featureCard {
+  background: var(--ifm-card-background-color);
+  padding: 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.featureCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+/* CTA Banner */
+.ctaBanner {
+  background: linear-gradient(135deg, #243b55, #141e30);
+  color: #fff;
+  padding: 5rem 2rem;
+  margin-top: 3rem;
+}
+
+.ctaBanner h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.ctaBanner p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin-bottom: 2rem;
+}
+
+/* Light & Dark Theme Adjustments */
+:root {
+  --ifm-card-background-color: #ffffff;
+  --ifm-background-color: #f7f8fa;
+}
+
+[data-theme='dark'] {
+  --ifm-card-background-color: #1f1f1f;
+  --ifm-background-color: #121212;
+}

@@ -1,0 +1,72 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2196F3;
+  --ifm-color-primary-dark: #1976D2;
+  --ifm-color-primary-light: #64B5F6;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #64B5F6;
+  --ifm-color-primary-dark: #42A5F5;
+}
+
+/* Footer base style */
+.footer {
+  /* fallback solid color for very old browsers */
+  background: #141E30;
+  color: #ffffff;
+}
+
+/* Footer inner container */
+.footer .footer__inner {
+  padding: 2.5rem 1rem;
+  border-top: none;
+}
+
+/* Links and titles */
+.footer a,
+.footer .footer__title {
+  color: #E8F6FF; /* light-ish text for links/titles */
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Light theme footer (optional lighter look) */
+:root .footer {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e9eef6 100%);
+  color: #0d1724;
+}
+:root .footer a,
+:root .footer .footer__title {
+  color: #0d1724;
+}
+
+/* Dark theme footer */
+[data-theme='dark'] .footer {
+  background: linear-gradient(135deg, #141E30 0%, #243B55 100%);
+  color: #ffffff;
+}
+[data-theme='dark'] .footer a,
+[data-theme='dark'] .footer .footer__title {
+  color: #dff4ff;
+}
+
+/* Make sure footer links contrast on both themes */
+.footer .footer__link-list li a {
+  opacity: 0.95;
+}
+
+/* Optional: Add a subtle top shadow / divider for the footer */
+.footer {
+  box-shadow: 0 -6px 18px rgba(0,0,0,0.12);
+}
+
