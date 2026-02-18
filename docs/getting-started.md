@@ -1,7 +1,7 @@
 ---
 id: getting-started
-title: Getting Started
-sidebar_label: Getting Started
+title: getting-started
+sidebar_label: getting-started
 ---
 
 # Getting Started with Refract

@@ -25,7 +25,7 @@ const sidebars = {
     'hello',
     {
       type: 'category',
-      label: 'Getting started',
+      label: 'getting-started',
       items: ['getting-started/create-a-document'],
     },
   ],

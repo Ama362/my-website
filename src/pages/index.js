@@ -19,7 +19,7 @@ export default function Home() {
             reactive, and high-performance user interfaces.
           </p>
           <div className={styles.buttons}>
-            <Link className="button button--secondary button--lg" to="/docs/GettingStarted">
+            <Link className="button button--secondary button--lg" to="/docs/getting-started">
               Get Started
             </Link>
             

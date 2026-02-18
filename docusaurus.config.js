@@ -16,13 +16,12 @@ const config = {
   future: {
     v4: true,
   },
-
   // Deployment URLs
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://ama362.github.io',
+  baseUrl: '/my-website/',
 
-  organizationName: 'facebook', // Replace later with your GitHub username
-  projectName: 'docusaurus', // Replace later with your repo name
+  organizationName: 'Ama362', // Replace later with your GitHub username
+  projectName: 'my-website', // Replace later with your repo name
 
   
 
